@@ -2,7 +2,7 @@
 var base = getApp();
 Page({
   data: {
-    loaded: false,
+    loaded: true,
     id: 0,
     mode: "add",
     consigee: "",
