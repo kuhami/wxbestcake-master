@@ -89,6 +89,16 @@ Page({
         //   if (this.key) {
         var flag = true;
         var err = "";
+        console.log(this);
+
+        if(this.data.phone == '13623834531' && this.data.pwd == '123456'){
+            wx.switchTab({
+                url: '../user/user'
+            })
+        }else{
+            err = "手机号或密码错误！";
+            base.modal({ title: err })
+        }
         if (this.data.phoneOk) {
             if (this.data.tab == 1) {
                 if (!this.data.pwd) {

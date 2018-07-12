@@ -3,7 +3,7 @@ Page({
     data: {
         userInfo: {},
         jzb: "0.00",
-        loaded: false,
+        loaded: true,
         exp: 0,
         phone: "",
         levels: 0,
@@ -108,7 +108,7 @@ Page({
         if (!base.user.islogin()) {
             wx.redirectTo({
                 // url: '../login/login'
-                url: '../phone/phone'
+                //url: '../phone/phone'
             });
         }
         else {
