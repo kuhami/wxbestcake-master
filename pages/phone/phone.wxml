@@ -24,3 +24,6 @@
 </view>
 
 <view class="sub {{phoneOk&&codeOk?'sub-ok':'sub-dis'}}" bindtap="login">登 录</view>
+<view>
+  <navigator url="/pages/index/index" open-type="switchTab" class="goBack">回到首页</navigator>
+</view>

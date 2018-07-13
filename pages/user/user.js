@@ -2,9 +2,10 @@ var base = getApp();
 Page({
     data: {
         userInfo: {},
-        jzb: "0.00",
+        jzb: "16.00",
+        coupon:'3',
         loaded: true,
-        exp: 0,
+        exp: 88,
         phone: "",
         levels: 0,
         headimg: "https://m.bestcake.com/images/icon_user.jpg"

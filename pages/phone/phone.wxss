@@ -18,3 +18,4 @@ page{background-color: #f3f3f3;padding: 55px 0 0;}
 .tab-layer{width: 750rpx;height: 50px; background: #fff;opacity: 0.9;left: 0;top: 0; position: fixed;z-index: 99; }
 .tab .tab-on{background-color: #576b95;text-align: center; color: #fff;flex: 1;}
 .tab .tab-out{text-align: center;flex: 1;}
+.goBack{font-size: 12pt; margin-left:30rpx;}

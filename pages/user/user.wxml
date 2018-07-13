@@ -17,7 +17,7 @@
   </view>
   <view class="cpn tab">
     <view class="amount">
-      <text>2</text>张</view>
+      <text>{{coupon}}</text>张</view>
     <view class="nm">优惠券</view>
   </view>
   <view class="exp tab">

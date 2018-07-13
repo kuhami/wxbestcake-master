@@ -1,9 +1,9 @@
 
-<!--<picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+<picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
   <view class="cityselect">
     {{array[index]}}
   </view>
-</picker>-->
+</picker>
 <view class="m" bindtap="goCake" data-brand="0">
   <image class="mg" src="{{path+'jd.jpg'}}" ></image>
 </view>
