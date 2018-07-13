@@ -40,14 +40,14 @@ module.exports = {
             "KeepFresh": "最适宜0℃~8℃冷藏保存，离开冷藏请勿超过2小时。5月1日~10月31日建议2天内食用 11月1日~翌年4月30日建议3天内食用。",
             "img":"images/manjian/pancake_new2.png",
             "CakeType": [{ "Size": "160克", "CurrentPrice":48, "SupplyNo": "JZ-0033-1", "PackingList": "" }]
+        },
+        "吉致生巧": {
+            "Name":"吉致生巧",
+            "Means": "草莓的清甜、抹茶的芬芳，制成内馅包裹进金黄Q弹的面饼里，成就一道经典的港式甜品",
+            "Resourse": "白砂糖，可可脂，可可液块，淡奶油，黄油，葡萄糖",
+            "KeepFresh": "最适宜0℃~8℃冷藏保存，离开冷藏请勿超过2小时。5月1日~10月31日建议2天内食用 11月1日~翌年4月30日建议3天内食用。",
+            "img":"/images/ksk/item/w_200/吉致生巧.jpg",
+            "CakeType": [{ "Size": "一盒", "CurrentPrice":168, "SupplyNo": "JZ-0029-1", "PackingList": "" }]
         }
-        // "吉致生巧": {
-        //     "Name":"吉致生巧",
-        //     "Means": "草莓的清甜、抹茶的芬芳，制成内馅包裹进金黄Q弹的面饼里，成就一道经典的港式甜品",
-        //     "Resourse": "白砂糖，可可脂，可可液块，淡奶油，黄油，葡萄糖",
-        //     "KeepFresh": "最适宜0℃~8℃冷藏保存，离开冷藏请勿超过2小时。5月1日~10月31日建议2天内食用 11月1日~翌年4月30日建议3天内食用。",
-        //     "img":"/images/ksk/item/w_200/吉致生巧.jpg",
-        //     "CakeType": [{ "Size": "一盒", "CurrentPrice":168, "SupplyNo": "JZ-0029-1", "PackingList": "" }]
-        // }
     }
 }

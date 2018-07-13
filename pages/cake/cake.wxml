@@ -4,7 +4,7 @@
 </view>
 <view class="tab-layer"></view>
 <view wx:if="{{tab==0}}">
-  <view class="item itemjd" data-pname="{{p.name}}" data-brand="0" bindtap="goDetail" wx:for="{{list}}" wx:key="name" wx:for-item="p">
+  <view class="item itemjd" data-pname="{{p.name}}" data-brand="1" bindtap="goDetail" wx:for="{{list}}" wx:key="name" wx:for-item="p">
     <view class="img">
       <image src="{{p.imgUrl}} " mode="aspectFit" />
     </view>

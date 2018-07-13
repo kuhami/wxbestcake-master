@@ -15,7 +15,7 @@ Page({
             this.initData();
         }
         //极致系列
-        var _jzlist = [];
+        var list = [],_jzlist = [];
         var dic = jzData.data;
         for (var i in dic) {
             _jzlist.push({
@@ -24,8 +24,17 @@ Page({
                 des: dic[i].Means,
                 imgUrl: base.path.res + dic[i].img
             })
+            list.push({
+                name: i,
+                price: dic[i].CakeType[0].CurrentPrice + ".00",
+                des: dic[i].Means,
+                imgUrl: base.path.res + dic[i].img
+            })
         }
-        this.setData({ "listJz": _jzlist });
+        this.setData({
+            "listJz": _jzlist,
+            "list": list,
+        });
     },
     onShow: function (e) {
         if (base.cake.tab != null) {
