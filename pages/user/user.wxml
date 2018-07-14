@@ -1,70 +1,69 @@
-<view class="u" wx:if="{{loaded}}" >
-  <view class="logo" bindtap="changeimg">
-    <image src="{{headimg}}"></image>
-  </view>
-  <view class="des">
-    <!--<view class="uname">{{userInfo.nickName}}</view>-->
-    <!--<view class="phone">{{phone}}</view>-->
-    <view class="uname">酷哈迷</view>
-    <view class="phone">1362383****</view>
-  </view>
+<view class="u" wx:if="{{loaded}}">
+    <view class="logo" bindtap="changeimg">
+        <image src="{{headimg}}"></image>
+    </view>
+    <view class="des">
+        <!--<view class="uname">{{userInfo.nickName}}</view>-->
+        <!--<view class="phone">{{phone}}</view>-->
+        <view class="uname">酷哈迷</view>
+        <view class="phone">1362383****</view>
+    </view>
 </view>
 <view class="ua">
-  <view class="jzb tab">
+<view class="jzb tab">
     <view class="amount">
-      <text>{{jzb}}</text>元</view>
+        <text>{{jzb}}</text>元
+    </view>
     <view class="nm">极致币</view>
-  </view>
-  <view class="cpn tab">
-    <view class="amount">
-      <text>{{coupon}}</text>张</view>
-    <view class="nm">优惠券</view>
-  </view>
-  <view class="exp tab">
-    <view class="amount">
-      <text>{{exp}}</text>分</view>
-    <view class="nm">经验</view>
-  </view>
 </view>
-
-
-
-
+<view class="cpn tab">
+    <view class="amount">
+        <text>{{coupon}}</text>张
+    </view>
+    <view class="nm">优惠券</view>
+</view>
+<view class="exp tab">
+    <view class="amount">
+        <text>{{exp}}</text>分
+    </view>
+    <view class="nm">经验</view>
+</view>
+</view>
 <view class="weui-cells">
-  <navigator class="weui-cell" url="../user/myorder/myorder">
+<navigator class="weui-cell" url="../user/myorder/myorder">
     <view class="weui-cell__hd">
-      <image src="https://m.bestcake.com/images/icon_user.jpg"></image>
+        <image src="https://m.bestcake.com/images/icon_user.jpg"></image>
     </view>
     <view class="weui-cell__bd">
-      <p>我的订单</p>
+        <p>我的订单</p>
     </view>
     <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-  </navigator>
-  <navigator class="weui-cell" url="../user/myaddress/myaddress">
-    <view class="weui-cell__hd">
-      <image src="https://m.bestcake.com/images/icon_user.jpg" style="width:40rpx;height:40rpx;"></image>
-    </view>
-    <view class="weui-cell__bd">
-      <p>收货地址</p>
-    </view>
-    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-  </navigator>
-<navigator class="weui-cell" url="../user/mycoupons/mycoupons">
-  <view class="weui-cell__hd">
-    <image src="https://m.bestcake.com/images/icon_user.jpg" style="width:40rpx;height:40rpx;"></image>
-  </view>
-  <view class="weui-cell__bd">
-    <p>我的优惠券</p>
-  </view>
-  <view class="weui-cell__ft weui-cell__ft_in-access"></view>
 </navigator>
-  <view class="weui-cell" bindtap="exist">
+<navigator class="weui-cell" url="../user/myaddress/myaddress">
     <view class="weui-cell__hd">
-      <image src="https://m.bestcake.com/images/icon_user.jpg" style="width:40rpx;height:40rpx;"></image>
+        <image src="https://m.bestcake.com/images/icon_user.jpg" style="width:40rpx;height:40rpx;"></image>
     </view>
     <view class="weui-cell__bd">
-      <p>退出登录</p>
+        <p>收货地址</p>
     </view>
     <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-  </view>
+</navigator>
+<navigator class="weui-cell" url="../user/mycoupons/mycoupons">
+    <view class="weui-cell__hd">
+        <image src="https://m.bestcake.com/images/icon_user.jpg" style="width:40rpx;height:40rpx;"></image>
+    </view>
+    <view class="weui-cell__bd">
+        <p>我的优惠券</p>
+    </view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+</navigator>
+<view class="weui-cell" bindtap="exist">
+    <view class="weui-cell__hd">
+        <image src="https://m.bestcake.com/images/icon_user.jpg" style="width:40rpx;height:40rpx;"></image>
+    </view>
+    <view class="weui-cell__bd">
+        <p>退出登录</p>
+    </view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+</view>
 </view>

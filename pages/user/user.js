@@ -3,7 +3,7 @@ Page({
     data: {
         userInfo: {},
         jzb: "16.00",
-        coupon:'3',
+        coupon: '3',
         loaded: true,
         exp: 88,
         phone: "",
@@ -13,7 +13,7 @@ Page({
     exist: function () {
         base.user.userid = 0;
         base.user.sessionid = "";
-        base.user.clear();     
+        base.user.clear();
         wx.redirectTo({
             url: '../phone/phone'
         });
@@ -50,18 +50,18 @@ Page({
             success: function (res) {
                 var tempFilePaths = res.tempFilePaths
                 wx.uploadFile({
-                    url: base.path.www+"upload.ashx", //仅为示例，非真实的接口地址
+                    url: base.path.www + "upload.ashx", //仅为示例，非真实的接口地址
                     filePath: tempFilePaths[0],
                     name: 'file',
                     formData: {
                         'user': 'test'
                     },
                     success: function (res) {
-                        var data = JSON.parse(res.data);                       
-                        data.Tag += '?v='+Math.random();
+                        var data = JSON.parse(res.data);
+                        data.Tag += '?v=' + Math.random();
                         base.user.headimg = data.Tag;
-                       //缓存数据更新
-                       var objuser = {};
+                        //缓存数据更新
+                        var objuser = {};
                         objuser.userid = base.user.userid;
                         objuser.sessionid = base.user.sessionid;
                         objuser.jzb = base.user.jzb;
@@ -74,8 +74,11 @@ Page({
                             headimg: data.Tag
                         });
                         if (data.Status == "ok") {
-                            base.get({ c: "UserCenter", m: "UpdateMemberHeadImage", imgurl: data.Tag }, function (d) { 
-                                var d = d.data;if (d.Status == "ok") {}});
+                            base.get({c: "UserCenter", m: "UpdateMemberHeadImage", imgurl: data.Tag}, function (d) {
+                                var d = d.data;
+                                if (d.Status == "ok") {
+                                }
+                            });
                         }
                         else {
                             wx.showModal({
@@ -123,8 +126,6 @@ Page({
 
             });
         }
-
-
 
 
     }

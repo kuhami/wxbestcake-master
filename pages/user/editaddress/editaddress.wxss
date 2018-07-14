@@ -6,18 +6,18 @@
   font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;
 }
 .ipt{background: #eee; margin: 10px;width:95%;}
-.ipt input{height:40px;}
-.section{background: #eee; margin: 10px;height:30px;width:95%;}
+.ipt input{height:40px;padding-left:10px; }
+.section{line-height:40px;background: #eee; margin: 10px;height:40px;width:95%;}
 .btn {
   display: block;
-  height: 2.777em;
-  line-height: 2.777em;
-  margin: 10px auto;
+  height: 2.277em;
+  line-height: 2.277em;
+  margin: 10% auto;
   width: 80%;
   text-align: center;
   background: #ff6000;
   color: #fff;
   border-radius: 8px;
   border: none;
-  font-size: 1.333em;
+  font-size: 1.133em;
 }

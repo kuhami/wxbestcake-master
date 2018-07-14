@@ -30,9 +30,9 @@ page{background-color: #f0f0f0;}
 /*我的地址css*/
 .addr_box{height:350px;width:100%;background:#fff;position:fixed;bottom:0; z-index:10; }
 .addr_box_add{position:absolute;bottom:0;border-top:1px solid #eee;width:100%;padding-left:35%;padding-top:10px;background:#fff;font-size: 18px;height: 40px;}
-.addr_head{display: flex;border-bottom:1px solid #eee;height: 40px;background:#fff;}
-.addr_head_cancel{font-size: 14px;margin:15px 1px;}
-.addr_head_title{font-size: 18px;margin:15px 30%;}
+.addr_head{display:flex;border-bottom:1px solid #eee;height:40px;background:#fff;line-height:40px;}
+.addr_head_cancel{font-size: 14px;margin:0 10px;color: #108ee9}
+.addr_head_title{font-size: 18px;margin:0 30%;}
 .addr_body{display: flex;border-bottom:1px dashed #000;margin:10px;opacity: 0.9}
 .addr_body_edit{width:9%;padding:10px;font-size:14px;}
 .addr_body_my{width:75%;font-size:14px;color:#666;}
