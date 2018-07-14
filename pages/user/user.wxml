@@ -26,37 +26,45 @@
     <view class="nm">经验</view>
   </view>
 </view>
-<view class="ub">
-  <view class="item item-a" >
-    <view class="icon">
+
+
+
+
+<view class="weui-cells">
+  <navigator class="weui-cell" url="../user/myorder/myorder">
+    <view class="weui-cell__hd">
+      <image src="https://m.bestcake.com/images/icon_user.jpg"></image>
     </view>
-    <view class="tit" >
-      <navigator url="../user/myorder/myorder" open-type="navigate" hover-class="navigator-hover">我的订单</navigator>
+    <view class="weui-cell__bd">
+      <p>我的订单</p>
     </view>
-    <view class="con"></view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+  <navigator class="weui-cell" url="../user/myaddress/myaddress">
+    <view class="weui-cell__hd">
+      <image src="https://m.bestcake.com/images/icon_user.jpg" style="width:40rpx;height:40rpx;"></image>
+    </view>
+    <view class="weui-cell__bd">
+      <p>收货地址</p>
+    </view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+  </navigator>
+<navigator class="weui-cell" url="../user/mycoupons/mycoupons">
+  <view class="weui-cell__hd">
+    <image src="https://m.bestcake.com/images/icon_user.jpg" style="width:40rpx;height:40rpx;"></image>
   </view>
-  <view class="item item-a">
-    <view class="icon">
-    </view>
-    <view class="tit" >
-      <navigator url="../user/myaddress/myaddress" open-type="navigate" hover-class="navigator-hover">收货地址</navigator>
-    </view>
-    <view class="con"></view>
+  <view class="weui-cell__bd">
+    <p>我的优惠券</p>
   </view>
-    <view class="item item-a">
-    <view class="icon">
+  <view class="weui-cell__ft weui-cell__ft_in-access"></view>
+</navigator>
+  <view class="weui-cell" bindtap="exist">
+    <view class="weui-cell__hd">
+      <image src="https://m.bestcake.com/images/icon_user.jpg" style="width:40rpx;height:40rpx;"></image>
     </view>
-    <view class="tit" >
-      <navigator url="../user/mycoupons/mycoupons" open-type="navigate" hover-class="navigator-hover">我的优惠券</navigator>
+    <view class="weui-cell__bd">
+      <p>退出登录</p>
     </view>
-    <view class="con"></view>
-  </view>
-  <view class="item  ">
-    <view class="icon">
-    </view>
-    <view class="tit"  bindtap="exist">
-      退出登录
-    </view>
-    <view class="con"></view>
+    <view class="weui-cell__ft weui-cell__ft_in-access"></view>
   </view>
 </view>

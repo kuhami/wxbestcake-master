@@ -23,3 +23,11 @@ page{background-color: #f0f0f0;}
 .ub .item .tit{width: 300rpx; font-size: 13pt;}
 .ub .item .con{flex: 1; font-size: 12pt}
 .item-a .tit,.item-a .con{border-bottom: 1rpx solid #ddd;}
+
+
+.weui-cell__hd image {
+    margin-right: 5px;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
