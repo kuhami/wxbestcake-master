@@ -2,7 +2,7 @@
 .hd{height:500rpx;background-color: #f3f3f3; }
 .hd image{width:750rpx;height:500rpx; }
 .tit{font-size: 17pt; font-weight: bold;padding:20rpx 30rpx; margin: 10rpx 0 0; background-color: #fff;}
-.des{font-size: 12pt;line-height: 22px;padding:0 35rpx 20rpx;color: #999;}
+.des{font-size: 10pt;line-height: 22px;padding:0 35rpx 20rpx;color: #999;}
 
 .pp{padding:20rpx;color: #ff6a00;border-top: 1rpx solid #eee; display: flex}
 .price{flex: 1;}
@@ -14,7 +14,7 @@
 .size .sitem-on text{border: 2rpx solid #576b95; color: #576b95;font-weight: bold;position: relative;}
 .size .sitem-on text:after{content: " "; display:block;position: absolute; width: 0;height: 0;border-top:10px solid #576b95;border-left:10px solid transparent;border-right:10px solid transparent; right:-7px;bottom:-2px;transform:rotateZ(-45deg);}
 .size .sitem-out text{border: 1rpx solid #ddd;}
-.sm{padding:20px 35rpx 0;font-size: 12pt;line-height: 22px;}
+.sm{padding:20px 35rpx 0;font-size: 10pt;line-height: 22px;}
 .sm text{color: #999;}
 
 

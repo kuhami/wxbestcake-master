@@ -11,8 +11,8 @@ page{padding: 55px 0 0;background-color: #f3f3f3;}
 .itemjz .img image{width:100%;height:200rpx;}
 .item .con{flex: 1; padding: 0 10px 0 0;}
 .con .nm{font-size: 14pt; font-weight: bold;}
-.con .des{line-height: 22px; font-size: 12pt; padding: 5px 0;color: #999;}
-.con .sub{color: #ff6a00;font-size: 12pt;}
+.con .des{line-height: 22px; font-size: 10pt; padding: 5px 0;color: #999;}
+.con .sub{color: #ff6a00;font-size: 10pt;}
 .con .sub text{font-size: 15pt;}
 
 .jzitem image{width: 720rpx; height:540rpx; }
