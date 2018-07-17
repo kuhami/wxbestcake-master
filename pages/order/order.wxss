@@ -5,7 +5,7 @@ page{background-color: #f0f0f0;}
 .tab .con{padding:20rpx 25rpx;font-size: 13pt;}
 
 .dt{display:flex;}
-.dt-item{flex: 1;padding:20rpx 60rpx;}
+.dt-item{flex: 1;padding:20rpx 60rpx;font-size:32rpx;color:#666;}
 
 .pos{position: relative;}
 .pos:after{content: " "; display:block;position: absolute; width: 0;height: 0;border-top:15rpx solid #576b95;border-left:10rpx solid transparent;border-right:10rpx solid transparent; left: 25rpx;top: 35rpx;}
@@ -43,3 +43,4 @@ page{background-color: #f0f0f0;}
 
 .addr_sel_m{font-size:16px;color:#666;width:80%;}
 .addr_sel_a{font-size:16px;color:#000;width:80%;}
+.textareastyle{width:100%;height:60px;padding:4px 10px 0 10px;font-size: 26rpx;color: #666;}

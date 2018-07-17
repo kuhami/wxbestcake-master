@@ -32,18 +32,18 @@
   <view class="tit">优惠方式</view>
   <view class="yh">
     <view class="item arrow">
-      <view class="lable">代金卡</view>
+      <view class="lable" style="font-size:26rpx;color:#666;">代金卡</view>
       <view class="content"></view>
     </view>
-    <view class="item arrow">
-      <view class="lable">优惠券</view>
+    <view class="item arrow" style="border-top:1px solid #eee;">
+      <view class="lable" style="font-size:26rpx;color:#666;">优惠券</view>
       <view class="content"></view>
     </view>
   </view>
 </view>
 <view class="date tab" style="height:100px;">
   <view class="tit">备注</view>
-  <textarea bindblur="bindTextAreaBlur" auto-height placeholder="" value="{{oinfo.Remarks}}" />
+  <textarea bindblur="bindTextAreaBlur" class="textareastyle" placeholder="请填写备注信息，如：2副刀叉、1个勺子..." value="{{oinfo.Remarks}}" />
 </view>
 <view class="tool">
   <view class="sub" bindtap="submit">提交订单</view>

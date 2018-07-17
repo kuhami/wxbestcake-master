@@ -15,7 +15,35 @@ Page({
             { id: 8, name: '17:00-18:00' }],
         arrTimeIndex: 0,
         addr: "",
-        addresslist: [],
+        addresslist: [{
+            name:'刘先生',
+            phone:'13623834531',
+            city:'上海',
+            area:'上海市',
+            address:'浦东张江高科',
+            id:0
+        },{
+            name:'张先生',
+            phone:'13623834531',
+            city:'上海',
+            area:'上海市',
+            address:'浦东张江高科',
+            id:1
+        },{
+            name:'刘先生',
+            phone:'13623834531',
+            city:'上海',
+            area:'上海市',
+            address:'浦东张江高科',
+            id:2
+        },{
+            name:'刘先生',
+            phone:'13623834531',
+            city:'上海',
+            area:'上海市',
+            address:'浦东张江高科',
+            id:3
+        }],
         addrShow: false,
         scrollTop: 100,
         selectedID: -1,
