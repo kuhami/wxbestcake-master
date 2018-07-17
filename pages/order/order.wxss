@@ -1,5 +1,5 @@
 .body{z-index: 0;}
-page{background-color: #f0f0f0;}
+page{background-color: #f0f0f0;width: 100%;}
 .tab{border-bottom: 1rpx solid #ddd;background-color: #fff;margin-bottom: 20rpx;}
 .tab .tit{border-bottom: 1rpx solid #eee;padding: 10rpx 25rpx;font-size:11pt; color: #999;}
 .tab .con{padding:20rpx 25rpx;font-size: 13pt;}
@@ -28,7 +28,7 @@ page{background-color: #f0f0f0;}
 .tool .sub{background-color: #576b95;border: 1rpx solid #576b95; color: #fff;flex:1;margin: 0 20rpx;height: 40px;line-height: 40px; text-align: center;border-radius: 3px;}
 
 /*我的地址css*/
-.addr_box{height:350px;width:100%;background:#fff;position:fixed;bottom:0; z-index:10; }
+.addr_box{height:350px;width:100%;background:#fff;position:fixed;bottom:0; z-index:20; }
 .addr_box_add{position:absolute;bottom:0;border-top:1px solid #eee;width:100%;padding-left:35%;padding-top:10px;background:#fff;font-size: 18px;height: 40px;}
 .addr_head{display:flex;border-bottom:1px solid #eee;height:40px;background:#fff;line-height:40px;}
 .addr_head_cancel{font-size: 14px;margin:0 10px;color: #108ee9}
@@ -39,8 +39,8 @@ page{background-color: #f0f0f0;}
 .addr_body_my_det{font-size:14px; font-family: 'microsoft yahei',Verdana,Arial,Helvetica,sans-serif;color:#000;}
 .addr_body_sel{padding-top:15px;}
 .addr_lbl_add{margin:5px;color:green;font-size:18px;font-weight: bold;}
-.hiddenbox{height:100%;width:100%;position: fixed;background:#666;opacity: 0.5;z-index: 1;top:0;}
+.hiddenbox{height:100%;width:100%;position: fixed;background:#666;opacity: 0.5;z-index: 10;top:0;}
 
 .addr_sel_m{font-size:16px;color:#666;width:80%;}
-.addr_sel_a{font-size:16px;color:#000;width:80%;}
-.textareastyle{width:100%;height:60px;padding:4px 10px 0 10px;font-size: 26rpx;color: #666;}
+.addr_sel_a{font-size:16px;color:#666;width:80%;}
+.textareastyle{width:100%;height:60px;padding:4px 10px 0 10px;font-size: 26rpx;color: #666;z-index: 1;}

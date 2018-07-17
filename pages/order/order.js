@@ -1,48 +1,48 @@
 var base = getApp();
-var common=require('../../utils/common.js');
+var common = require('../../utils/common.js');
 Page({
     data: {
         arrTime: ['选择配送时间', '10:00-11:00', '11:00-12:00', '12:00-13:00', '13:00-14:00', '14:00-15:00', '15:00-16:00', '16:00-17:00', '17:00-18:00'],
         objectArrTime: [
-            { id: 0, name: '选择配送时间' },
-            { id: 1, name: '10:00-11:00' },
-            { id: 2, name: '11:00-12:00' },
-            { id: 3, name: '12:00-13:00' },
-            { id: 4, name: '13:00-14:00' },
-            { id: 5, name: '14:00-15:00' },
-            { id: 6, name: '15:00-16:00' },
-            { id: 7, name: '16:00-17:00' },
-            { id: 8, name: '17:00-18:00' }],
+            {id: 0, name: '选择配送时间'},
+            {id: 1, name: '10:00-11:00'},
+            {id: 2, name: '11:00-12:00'},
+            {id: 3, name: '12:00-13:00'},
+            {id: 4, name: '13:00-14:00'},
+            {id: 5, name: '14:00-15:00'},
+            {id: 6, name: '15:00-16:00'},
+            {id: 7, name: '16:00-17:00'},
+            {id: 8, name: '17:00-18:00'}],
         arrTimeIndex: 0,
         addr: "",
         addresslist: [{
-            name:'刘先生',
-            phone:'13623834531',
-            city:'上海',
-            area:'上海市',
-            address:'浦东张江高科',
-            id:0
-        },{
-            name:'张先生',
-            phone:'13623834531',
-            city:'上海',
-            area:'上海市',
-            address:'浦东张江高科',
-            id:1
-        },{
-            name:'刘先生',
-            phone:'13623834531',
-            city:'上海',
-            area:'上海市',
-            address:'浦东张江高科',
-            id:2
-        },{
-            name:'刘先生',
-            phone:'13623834531',
-            city:'上海',
-            area:'上海市',
-            address:'浦东张江高科',
-            id:3
+            name: '刘先生',
+            phone: '13623834531',
+            city: '上海',
+            area: '上海市',
+            address: '浦东张江高科',
+            id: 0
+        }, {
+            name: '张先生',
+            phone: '13623834531',
+            city: '上海',
+            area: '上海市',
+            address: '浦东张江高科',
+            id: 1
+        }, {
+            name: '刘先生',
+            phone: '13623834531',
+            city: '上海',
+            area: '上海市',
+            address: '浦东张江高科',
+            id: 2
+        }, {
+            name: '刘先生',
+            phone: '13623834531',
+            city: '上海',
+            area: '上海市',
+            address: '浦东张江高科',
+            id: 3
         }],
         addrShow: false,
         scrollTop: 100,
@@ -61,7 +61,7 @@ Page({
             TotalPrice: 0
         },
         dateStart: "2017-01-01",
-        dateEnd: "2017-01-01"
+        dateEnd: "2017-01-01",
     },
     bindTimeChange: function (e) {
         var _this = this;
@@ -78,18 +78,18 @@ Page({
         })
     },
     myaddrChange: function () {//触摸选择地址
-        this.setData({ addrShow: true });
+        this.setData({addrShow: true});
     },
     myaddrCancel: function () {//点击地址簿中取消按钮
-        this.setData({ addrShow: false });
+        this.setData({addrShow: false});
     },
-    closeaddr:function(){//触摸遮罩层关闭地址选项
-          this.setData({ addrShow: false });
+    closeaddr: function () {//触摸遮罩层关闭地址选项
+        this.setData({addrShow: false});
     },
     toSelect: function (e) {//选中地址
         var _this = this;
         var id = e.currentTarget.dataset.aid;
-        _this.setData({ selectedID: id });
+        _this.setData({selectedID: id});
         for (var i = 0; i < _this.data.addresslist.length; i++) {
             if (_this.data.addresslist[i].id == id) {
                 _this.setData({
@@ -107,7 +107,7 @@ Page({
     },
     onLoad: function (e) {
         var _this = this;
-        var now=new Date();
+        var now = new Date();
         if (base.user.islogin()) {
             if (e.from && e.from == "cart") {
                 var l = base.cart.getList();
@@ -117,8 +117,8 @@ Page({
                 }
                 _this.setData({
                     plist: l,
-                    dateStart: common.addDate(now,1),
-                    dateEnd: common.addDate(now,90)
+                    dateStart: common.addDate(now, 1),
+                    dateEnd: common.addDate(now, 90)
                 });
             }
         }
@@ -128,7 +128,7 @@ Page({
     getAddressList: function () {
         var _this = this;
 
-        base.get({ c: "UserCenter", m: "GetAllAddress" }, function (d) {
+        base.get({c: "UserCenter", m: "GetAllAddress"}, function (d) {
             var dt = d.data;
             if (dt.Status == "ok") {
                 var arr = [];
@@ -243,7 +243,11 @@ Page({
             var oplArr = _this.getProductList();
             var oal = [];
             base.post({
-                c: "OrderCenter", m: "AddOrder", p: JSON.stringify(obj), proInfo: JSON.stringify(oplArr), oalInfo: JSON.stringify(oal)
+                c: "OrderCenter",
+                m: "AddOrder",
+                p: JSON.stringify(obj),
+                proInfo: JSON.stringify(oplArr),
+                oalInfo: JSON.stringify(oal)
             }, function (d) {
                 console.log(d)
                 var dt = d.data;
