@@ -1,12 +1,16 @@
 <view class="u" wx:if="{{loaded}}">
     <view class="logo" bindtap="changeimg">
-        <image src="{{headimg}}"></image>
+        <image src="{{userInfo.avatarUrl}}"></image>
     </view>
     <view class="des">
         <!--<view class="uname">{{userInfo.nickName}}</view>-->
         <!--<view class="phone">{{phone}}</view>-->
-        <view class="uname">酷哈迷</view>
-        <view class="phone">1362383****</view>
+        <!--<open-data type="userAvatarUrl"></open-data>-->
+        <button type="primary" wx:if="{{!userInfo}}" open-type="getUserInfo" bindgetuserinfo="onGotUserInfo">授权登录</button>
+        <view wx:else="">
+            <view class="uname">{{userInfo.nickName}}</view>
+            <view class="phone">1362383****</view>
+        </view>
     </view>
 </view>
 <view class="ua">

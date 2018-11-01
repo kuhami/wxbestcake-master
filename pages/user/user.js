@@ -1,7 +1,7 @@
 var base = getApp();
 Page({
     data: {
-        userInfo: {},
+        userInfo:'',
         jzb: "16.00",
         coupon: '3',
         loaded: true,
@@ -9,6 +9,13 @@ Page({
         phone: "",
         levels: 0,
         headimg: "https://m.bestcake.com/images/icon_user.jpg"
+    },
+    onGotUserInfo:function (e) {//授权登陆
+        const { userInfo } = e.detail
+        console.log(e)
+        this.setData({
+            userInfo: userInfo
+        })
     },
     exist: function () {
         base.user.userid = 0;
@@ -20,7 +27,7 @@ Page({
     },
     onReady: function () {
         // 页面渲染完成
-
+        console.log(this);
     },
     tomyorder: function () {
         wx.navigateTo({
@@ -103,12 +110,12 @@ Page({
     onLoad: function () {
         var that = this
         //调用应用实例的方法获取全局数据
-        // base.getUserInfo(function (userInfo) {
-        //     //更新数据
-        //     that.setData({
-        //         userInfo: userInfo
-        //     })
-        // })        
+        base.getUserInfo(function (userInfo) {
+            //更新数据
+            that.setData({
+                userInfo: userInfo
+            })
+        })
         if (!base.user.islogin()) {
             wx.redirectTo({
                 // url: '../login/login'
