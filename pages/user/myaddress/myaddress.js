@@ -1,7 +1,7 @@
 var base = getApp();
 Page({
   data: {
-    loaded: false,
+    loaded: true,
     addresslist: []
   },
   onLoad: function (options) {
