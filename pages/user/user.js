@@ -27,7 +27,7 @@ Page({
     },
     onReady: function () {
         // 页面渲染完成
-        console.log(this);
+        console.log(base);
     },
     tomyorder: function () {
         wx.navigateTo({
