@@ -33,10 +33,16 @@ $ cd wxbestcake-master
 ```
 ## 商城截图
 
-<p><a target="_blank" href="https://github.com/kuhami/CarShop/blob/master/image/jt4.jpeg"><img src="https://raw.githubusercontent.com/kuhami/CarShop/master/image/jt4.jpeg" width="375px" style="max-width:100%;"></a></p>
+<p><a target="_blank" href="https://github.com/kuhami/wxbestcake-master/blob/master/icon/Capture7.jpeg"><img src="https://raw.githubusercontent.com/kuhami/wxbestcake-master/master/icon/Capture7.jpeg" width="375px" style="max-width:100%;"></a></p>
 
-<p><a target="_blank" href="https://github.com/kuhami/CarShop/blob/master/image/jt3.jpeg"><img src="https://raw.githubusercontent.com/kuhami/CarShop/master/image/jt3.jpeg" width="375px" style="max-width:100%;"></a></p>
+<p><a target="_blank" href="https://github.com/kuhami/wxbestcake-master/blob/master/icon/Capture6.jpeg"><img src="https://raw.githubusercontent.com/kuhami/wxbestcake-master/master/icon/Capture6.jpeg" width="375px" style="max-width:100%;"></a></p>
 
-<p><a target="_blank" href="https://github.com/kuhami/CarShop/blob/master/image/jt2.jpeg"><img src="https://raw.githubusercontent.com/kuhami/CarShop/master/image/jt2.jpeg" width="375px" style="max-width:100%;"></a></p>
+<p><a target="_blank" href="https://github.com/kuhami/wxbestcake-master/blob/master/icon/Capture5.jpeg"><img src="https://raw.githubusercontent.com/kuhami/wxbestcake-master/master/icon/Capture5.jpeg" width="375px" style="max-width:100%;"></a></p>
 
-<p><a target="_blank" href="https://github.com/kuhami/CarShop/blob/master/image/jt1.png"><img src="https://raw.githubusercontent.com/kuhami/CarShop/master/image/jt1.png" width="375px" style="max-width:100%;"></a></p>
+<p><a target="_blank" href="https://github.com/kuhami/wxbestcake-master/blob/master/icon/Capture4.jpeg"><img src="https://raw.githubusercontent.com/kuhami/wxbestcake-master/master/icon/Capture4.jpeg" width="375px" style="max-width:100%;"></a></p>
+
+<p><a target="_blank" href="https://github.com/kuhami/wxbestcake-master/blob/master/icon/Capture3.jpeg"><img src="https://raw.githubusercontent.com/kuhami/wxbestcake-master/master/icon/Capture3.jpeg" width="375px" style="max-width:100%;"></a></p>
+
+<p><a target="_blank" href="https://github.com/kuhami/wxbestcake-master/blob/master/icon/Capture2.jpeg"><img src="https://raw.githubusercontent.com/kuhami/wxbestcake-master/master/icon/Capture2.jpeg" width="375px" style="max-width:100%;"></a></p>
+
+<p><a target="_blank" href="https://github.com/kuhami/wxbestcake-master/blob/master/icon/Capture1.jpeg"><img src="https://raw.githubusercontent.com/kuhami/wxbestcake-master/master/icon/Capture1.jpeg" width="375px" style="max-width:100%;"></a></p>
