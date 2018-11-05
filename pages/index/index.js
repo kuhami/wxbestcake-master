@@ -4,7 +4,7 @@ var base = getApp();
 Page({
   data: {
     path:base.path.res+"smallexe/index/",
-    motto: '你好、贝思客1！',
+    motto: '你好、BigCake！',
     userInfo: {},
     array: ['上海', '北京', '杭州', '宁波'],
     index: 0
@@ -59,7 +59,7 @@ Page({
   },
   onShareAppMessage: function () {
     return {
-      title: '贝思客（体验版）',
+      title: 'BigCake（体验版）',
       desc: '',
       path: '/pages/index/index?id=123'
     }
