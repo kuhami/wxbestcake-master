@@ -23,7 +23,7 @@
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#576b95",
     "navigationBarTitleText": "BigCake",
-    "navigationBarTextStyle": "#fff"
+    "navigationBarTextStyle": "white"
   },
   "tabBar": {
     "list": [
